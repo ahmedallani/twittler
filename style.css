@@ -1,0 +1,60 @@
+body {
+  background-color: lightgray;
+}
+.card {
+  background-color: white;
+  border: 1px black solid;
+  border-radius: 25px;
+  margin: 10px;
+  padding: 20px;
+  max-width: 600px;
+  margin: auto;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.container > div {
+  margin: auto;
+  text-align: center;
+  width: 75%;
+  margin-bottom: 10px;
+}
+.card div {
+  margin-bottom: 10px;
+}
+.user {
+  font-weight: bold;
+}
+.msg {
+  margin-left: 10px;
+  color: gray;
+}
+.time {
+  text-align: right;
+}
+
+.button {
+  background-color: blue;
+  color: white;
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin: auto;
+  border: none;
+  cursor: pointer;
+  font-size: larger;
+  font-weight: bold;
+}
+.button:hover {
+  background-color: mediumblue;
+}
+.button:focus {
+  outline: 0;
+}
+#message {
+  padding: 12px 20px;
+  margin: 8px 0;
+  /* display: inline-block; */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}

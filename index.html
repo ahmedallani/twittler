@@ -1,14 +1,23 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js" integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ==" crossorigin="anonymous"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"
+      integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ=="
+      crossorigin="anonymous"
+    ></script>
     <script src="jquery.js"></script>
     <script src="data_generator.js"></script>
     <script src="HighOrderFunctions.js"></script>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <button onclick="refresh()">Refresh</button>
-    <div id="tweets"></div>
+    <div class="container">
+      <div>
+        <button onclick="refresh()" class="button">Refresh</button>
+      </div>
+      <div id="tweets"></div>
+    </div>
     <script src="main.js"></script>
   </body>
 </html>

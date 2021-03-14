@@ -8,9 +8,9 @@ function refresh(arr) {
   var index = arr.length - 1;
   while (index >= 0) {
     var tweet = arr[index];
-    var $tweet = $("<div></div>");
+    var $tweet = $("<div class='card'></div>");
     var html="<div class='user'>"+tweet.user+"</div>"
-    html+="<div class='message'>"+tweet.message+"</div>"
+    html+="<div class='msg'>"+tweet.message+"</div>"
     html += "<div class='time'>" + moment(tweet.created_at).fromNow() + "</div>";
     $tweet.html(html);
     $tweet.appendTo($tweets);
