@@ -27,3 +27,15 @@ function refresh(arr) {
 $(document).ready(function () {
     refresh()
 });
+
+function add(){
+  var $user = $("#user");
+  var $message = $("#message");
+  var tweet ={
+    user: $user.val(),
+    message: $message.val(),
+    created_at : new Date()
+  }
+  streams.home.push(tweet)
+  refresh()
+}

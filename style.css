@@ -50,7 +50,7 @@ body {
 .button:focus {
   outline: 0;
 }
-#message {
+.input {
   padding: 12px 20px;
   margin: 8px 0;
   /* display: inline-block; */
